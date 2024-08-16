@@ -60,7 +60,7 @@ int strToInt(const char* str) {
 
 int main(int argc, const char** argv) {
     if (argc < 4) {
-        printf("[usage] i2c_set_volume <volume:[0-100]> <vendor_id> <product_id>");
+        printf("[usage] i2c_set_volume <volume:[0-100]> <vendor_id> <product_id>\n");
         return 0;
     }
 
